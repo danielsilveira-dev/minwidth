@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+.page {
+    height: 100vh;
+
+    /* display: grid;
+    justify-content: center; */
+
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    padding: 2rem;
+}
+header h1 {
+    font-size: clamp(4rem, 4rem + 1vw, 6rem);
+}
+header p {
+    font-size: clamp(1.6rem, 1.6rem + 1vw, 2rem);
+}
