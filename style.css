@@ -11,12 +11,6 @@
 
 .page {
     height: 100vh;
-
-    /* display: grid;
-    justify-content: center; */
-
-    display: flex;
-    justify-content: center;
 }
 
 header {
@@ -26,6 +20,13 @@ header {
 header h1 {
     font-size: clamp(4rem, 4rem + 1vw, 6rem);
 }
-header p {
+header p, section p {
     font-size: clamp(1.6rem, 1.6rem + 1vw, 2rem);
+    text-align: center;
+}
+.content {
+    width: clamp(500px, 50.0rem + 10vw, 700px);
+    border: 1px solid;
+    padding: 2rem;
+    margin:  0 auto;
 }
