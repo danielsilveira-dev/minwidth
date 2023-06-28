@@ -9,27 +9,41 @@
     font-size: 62.5%;
 }
 
-.page {
-    height: 100vh;
-}
-
 header {
-    width: 100%;
     padding: 2rem;
+    text-align: center;
+
 }
-header h1 {
+header h1, .content h2 {
     font-size: clamp(4rem, 4rem + 1vw, 6rem);
     text-align: center;
+}
+header p {
+    min-width: 474px;
+    
 }
 header p, section p {
     font-size: clamp(1.6rem, 1.6rem + 1vw, 2rem);
     text-align: center;
 }
-.content {
-    width: clamp(500px, 50.0rem + 10vw, 700px);
-    border: 1px solid;
+
+main {
     padding: 2rem;
-    margin:  0 auto;
+}
+.content {
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 1rem;
+    text-align: center;
+
+}
+span {
+    font-family: monospace;
+    font-size: clamp(1.2rem, 1.2rem + 1vw, 1.5rem);
+    color: rgb(172, 172, 172);
+
+    margin: 0 auto;
 }
 
 @media (max-width: 582px) {
